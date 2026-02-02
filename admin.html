@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="robots" content="noindex, nofollow">
+  <title>Admin Dashboard | ProForce Site Services (Mock)</title>
+  <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+  <header class="header">
+    <div class="header-inner">
+      <a href="index.html" class="logo"><img src="image/IMG_4617.jpeg" alt="ProForce Site Services"></a>
+      <nav class="nav-desktop">
+        <a href="index.html">View Site</a>
+        <span style="color: var(--color-gray); font-size: 0.9rem;">| Static Mockup |</span>
+      </nav>
+    </div>
+  </header>
+
+  <section class="section section-dark" style="padding-top: calc(var(--header-height) + var(--space-xl));">
+    <div class="container">
+      <p class="text-red" style="margin-bottom: var(--space-lg); font-weight: 700;">⚠️ STATIC UI MOCKUP — No backend. For design reference only.</p>
+      <div class="admin-grid">
+        <aside class="admin-sidebar">
+          <h4>Dashboard</h4>
+          <a href="#" class="active">Pending Bookings</a>
+          <a href="#">Calendar</a>
+          <a href="#">Customers</a>
+          <a href="#">Blackout Dates</a>
+          <a href="#">Settings</a>
+          <h4 style="margin-top: var(--space-xl);">Reports</h4>
+          <a href="#">Revenue</a>
+          <a href="#">Bookings</a>
+        </aside>
+        <main class="admin-content">
+          <h2>Pending Bookings</h2>
+          <table class="admin-table">
+            <thead>
+              <tr>
+                <th>Date</th>
+                <th>Customer</th>
+                <th>Size</th>
+                <th>Duration</th>
+                <th>Address</th>
+                <th>Actions</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Feb 5, 2025</td>
+                <td>Mike Thompson</td>
+                <td>20-yard</td>
+                <td>7-day</td>
+                <td>123 Main St, Loudon TN</td>
+                <td>
+                  <button class="btn admin-btn-sm btn-approve">Approve</button>
+                  <button class="btn admin-btn-sm btn-decline">Decline</button>
+                </td>
+              </tr>
+              <tr>
+                <td>Feb 7, 2025</td>
+                <td>Sarah Johnson</td>
+                <td>15-yard</td>
+                <td>3-day</td>
+                <td>456 Oak Ave, Lenoir City</td>
+                <td>
+                  <button class="btn admin-btn-sm btn-approve">Approve</button>
+                  <button class="btn admin-btn-sm btn-decline">Decline</button>
+                </td>
+              </tr>
+              <tr>
+                <td>Feb 10, 2025</td>
+                <td>James Wilson</td>
+                <td>20-yard</td>
+                <td>24-hour</td>
+                <td>789 Pine Rd, Philadelphia TN</td>
+                <td>
+                  <button class="btn admin-btn-sm btn-approve">Approve</button>
+                  <button class="btn admin-btn-sm btn-decline">Decline</button>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+
+          <h2 style="margin-top: var(--space-2xl);">Calendar Blackout</h2>
+          <div class="calendar-mock">
+            <div class="calendar-header">
+              <span>February 2025</span>
+              <button class="btn btn-secondary" style="padding: var(--space-xs) var(--space-md);">Add Blackout</button>
+            </div>
+            <div style="display: grid; grid-template-columns: repeat(7, 1fr); gap: var(--space-xs); margin-top: var(--space-md);">
+              <div style="padding: var(--space-sm); background: var(--color-charcoal-light); text-align: center; font-size: 0.85rem; color: var(--color-gray);">Sun</div>
+              <div style="padding: var(--space-sm); background: var(--color-charcoal-light); text-align: center; font-size: 0.85rem; color: var(--color-gray);">Mon</div>
+              <div style="padding: var(--space-sm); background: var(--color-charcoal-light); text-align: center; font-size: 0.85rem; color: var(--color-gray);">Tue</div>
+              <div style="padding: var(--space-sm); background: var(--color-charcoal-light); text-align: center; font-size: 0.85rem; color: var(--color-gray);">Wed</div>
+              <div style="padding: var(--space-sm); background: var(--color-charcoal-light); text-align: center; font-size: 0.85rem; color: var(--color-gray);">Thu</div>
+              <div style="padding: var(--space-sm); background: var(--color-charcoal-light); text-align: center; font-size: 0.85rem; color: var(--color-gray);">Fri</div>
+              <div style="padding: var(--space-sm); background: var(--color-charcoal-light); text-align: center; font-size: 0.85rem; color: var(--color-gray);">Sat</div>
+              <div class="calendar-day disabled">26</div>
+              <div class="calendar-day disabled">27</div>
+              <div class="calendar-day disabled">28</div>
+              <div class="calendar-day disabled" style="background: var(--color-red); opacity: 0.5;">29</div>
+              <div class="calendar-day disabled" style="background: var(--color-red); opacity: 0.5;">30</div>
+              <div class="calendar-day disabled" style="background: var(--color-red); opacity: 0.5;">31</div>
+              <div class="calendar-day">1</div>
+              <div class="calendar-day">2</div>
+              <div class="calendar-day">3</div>
+              <div class="calendar-day">4</div>
+              <div class="calendar-day" style="background: var(--color-red); opacity: 0.7;">5</div>
+              <div class="calendar-day">6</div>
+              <div class="calendar-day" style="background: var(--color-red); opacity: 0.7;">7</div>
+              <div class="calendar-day">8</div>
+              <div class="calendar-day">9</div>
+              <div class="calendar-day" style="background: var(--color-red); opacity: 0.7;">10</div>
+            </div>
+            <p style="margin-top: var(--space-md); font-size: 0.9rem; color: var(--color-gray);">Red = Blackout or Booked</p>
+          </div>
+
+          <h2 style="margin-top: var(--space-2xl);">SEO Meta Tags (UI Mockup)</h2>
+          <div class="seo-mockup">
+            <p class="title">ProForce Site Services | Dumpster Rental Loudon TN | Veteran-Owned</p>
+            <p class="url">https://proforcesiteservices.com/</p>
+            <p>ProForce Site Services - Veteran-owned dumpster rental in Loudon TN. 15 & 20-yard dumpsters. Reserve today.</p>
+            <p style="font-size: 0.85rem;"><strong>Keywords:</strong> Dumpster Rental Loudon TN, roll off dumpster Loudon, veteran owned</p>
+          </div>
+        </main>
+      </div>
+    </div>
+  </section>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

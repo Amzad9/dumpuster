@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Reserve your dumpster - ProForce Site Services. 15 & 20-yard dumpsters. Dumpster rental Loudon TN.">
+  <meta name="keywords" content="Dumpster Rental Loudon TN, reserve dumpster, book dumpster">
+  <title>Reserve Your Dumpster | ProForce Site Services | Loudon TN</title>
+  <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+  <header class="header">
+    <div class="header-inner">
+      <a href="index.html" class="logo"><img src="image/IMG_4617.jpeg" alt="ProForce Site Services"></a>
+      <nav class="nav-desktop">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="services.html">Services</a>
+        <a href="booking.html" class="active">Reserve</a>
+        <a href="quote.html">Quote</a>
+        <a href="contact.html">Contact</a>
+        <a href="booking.html" class="btn btn-primary nav-cta">Reserve Your Dumpster</a>
+      </nav>
+    </div>
+  </header>
+
+  <section class="page-hero">
+    <div class="container">
+      <h1>Reserve Your Dumpster</h1>
+      <p>Complete the steps below. We'll confirm your booking within 24 hours.</p>
+    </div>
+  </section>
+
+  <section class="section section-dark">
+    <div class="container" style="max-width: 900px;">
+      <!-- Booking Steps -->
+      <div class="booking-steps">
+        <span class="booking-step active" data-step="1">1. Size</span>
+        <span class="booking-step" data-step="2">2. Duration</span>
+        <span class="booking-step" data-step="3">3. Date</span>
+        <span class="booking-step" data-step="4">4. Details</span>
+        <span class="booking-step" data-step="5">5. Payment</span>
+      </div>
+
+      <!-- Step 1: Select Size -->
+      <div id="booking-step-1" class="booking-section">
+        <h2>Select Dumpster Size</h2>
+        <div class="dumpster-grid dumpster-select-grid" style="grid-template-columns: repeat(2, 1fr);">
+          <div class="dumpster-card duration-card selectable-card" data-size="15" style="cursor: pointer;">
+            <div class="dumpster-size">15-YARD</div>
+            <div class="dumpster-dims">16' L × 8' W × 4' H</div>
+            <p>Small to medium projects</p>
+          </div>
+          <div class="dumpster-card duration-card selectable-card" data-size="20" style="cursor: pointer;">
+            <div class="dumpster-size">20-YARD</div>
+            <div class="dumpster-dims">14' L × 8' W × 6' H</div>
+            <p>Larger projects</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Step 2: Duration -->
+      <div id="booking-step-2" class="booking-section" style="display: none;">
+        <h2>Select Rental Duration</h2>
+        <div class="duration-grid">
+          <div class="duration-card">
+            <div class="card-title">24-Hour</div>
+            <div class="price">From $299</div>
+            <p>Same-day pickup available</p>
+          </div>
+          <div class="duration-card">
+            <div class="card-title">3-Day</div>
+            <div class="price">From $349</div>
+            <p>Most popular</p>
+          </div>
+          <div class="duration-card">
+            <div class="card-title">7-Day</div>
+            <div class="price">From $399</div>
+            <p>Best value</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Step 3: Calendar -->
+      <div id="booking-step-3" class="booking-section" style="display: none;">
+        <h2>Select Delivery Date</h2>
+        <div class="calendar-mock">
+          <div class="calendar-header">
+            <button class="btn btn-secondary" style="padding: var(--space-xs) var(--space-md);">← Prev</button>
+            <strong>February 2025</strong>
+            <button class="btn btn-secondary" style="padding: var(--space-xs) var(--space-md);">Next →</button>
+          </div>
+          <div class="calendar-grid">
+            <div style="grid-column: span 7; font-weight: 700; color: var(--color-gray); font-size: 0.85rem;">SUN MON TUE WED THU FRI SAT</div>
+            <div class="calendar-day disabled">26</div>
+            <div class="calendar-day disabled">27</div>
+            <div class="calendar-day disabled">28</div>
+            <div class="calendar-day disabled">29</div>
+            <div class="calendar-day disabled">30</div>
+            <div class="calendar-day disabled">31</div>
+            <div class="calendar-day">1</div>
+            <div class="calendar-day">2</div>
+            <div class="calendar-day">3</div>
+            <div class="calendar-day">4</div>
+            <div class="calendar-day">5</div>
+            <div class="calendar-day">6</div>
+            <div class="calendar-day">7</div>
+            <div class="calendar-day">8</div>
+            <div class="calendar-day">9</div>
+            <div class="calendar-day">10</div>
+            <div class="calendar-day">11</div>
+            <div class="calendar-day">12</div>
+            <div class="calendar-day">13</div>
+            <div class="calendar-day">14</div>
+            <div class="calendar-day">15</div>
+            <div class="calendar-day">16</div>
+            <div class="calendar-day">17</div>
+            <div class="calendar-day">18</div>
+            <div class="calendar-day">19</div>
+            <div class="calendar-day">20</div>
+            <div class="calendar-day">21</div>
+            <div class="calendar-day">22</div>
+            <div class="calendar-day">23</div>
+            <div class="calendar-day">24</div>
+            <div class="calendar-day">25</div>
+            <div class="calendar-day">26</div>
+            <div class="calendar-day">27</div>
+            <div class="calendar-day">28</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Step 4: Customer Form -->
+      <div id="booking-step-4" class="booking-section" style="display: none;">
+        <h2>Customer Information</h2>
+        <form>
+          <div class="form-row">
+            <div class="form-group">
+              <label class="form-label">First Name</label>
+              <input type="text" class="form-input" placeholder="John" required>
+            </div>
+            <div class="form-group">
+              <label class="form-label">Last Name</label>
+              <input type="text" class="form-input" placeholder="Smith" required>
+            </div>
+          </div>
+          <div class="form-row">
+            <div class="form-group">
+              <label class="form-label">Phone</label>
+              <input type="tel" class="form-input" placeholder="(865) 555-1234" required>
+            </div>
+            <div class="form-group">
+              <label class="form-label">Email</label>
+              <input type="email" class="form-input" placeholder="john@example.com" required>
+            </div>
+          </div>
+          <div class="form-group">
+            <label class="form-label">Delivery Address</label>
+            <input type="text" class="form-input" placeholder="123 Main St, Loudon TN 37774" required>
+          </div>
+          <div class="form-group">
+            <label class="form-label">Project Notes (optional)</label>
+            <textarea class="form-textarea" placeholder="Driveway access, gate code, etc."></textarea>
+          </div>
+        </form>
+      </div>
+
+      <!-- Step 5: Payment -->
+      <div id="booking-step-5" class="booking-section" style="display: none;">
+        <h2>Payment Information</h2>
+        <div class="card-input-mock">
+          <div class="card-visual">
+            <div class="card-chip"></div>
+            <div class="card-number-display">•••• •••• •••• 4242</div>
+          </div>
+          <div class="form-group">
+            <label class="form-label">Card Number</label>
+            <input type="text" class="form-input" placeholder="4242 4242 4242 4242" maxlength="19">
+          </div>
+          <div class="form-row">
+            <div class="form-group">
+              <label class="form-label">Expiry</label>
+              <input type="text" class="form-input" placeholder="MM/YY">
+            </div>
+            <div class="form-group">
+              <label class="form-label">CVC</label>
+              <input type="text" class="form-input" placeholder="123">
+            </div>
+          </div>
+        </div>
+
+        <div class="pending-banner mt-xl">
+          BOOKING REQUEST PENDING APPROVAL
+        </div>
+        <p class="text-center" style="color: var(--color-gray);">This is a demo. No payment will be processed. We'll contact you to confirm your booking.</p>
+      </div>
+
+      <!-- Navigation -->
+      <div style="display: flex; justify-content: space-between; margin-top: var(--space-xl); gap: var(--space-md); flex-wrap: wrap;">
+        <button class="btn btn-secondary" id="booking-prev" style="display: none;">← Previous</button>
+        <button class="btn btn-primary" id="booking-next">Next Step →</button>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div><h4>ProForce Site Services</h4><p>Veteran-owned. Loudon TN.</p></div>
+        <div><h4>Contact</h4><p><a href="tel:8655551234">(865) 555-1234</a></p></div>
+      </div>
+      <div class="footer-bottom"><p>© 2025 ProForce Site Services. Dumpster Rental Loudon TN.</p></div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+  <script>
+    (function() {
+      const steps = document.querySelectorAll('.booking-step');
+      const sections = document.querySelectorAll('.booking-section');
+      const nextBtn = document.getElementById('booking-next');
+      const prevBtn = document.getElementById('booking-prev');
+      let current = 0;
+
+      function showStep(i) {
+        if (i < 0 || i > 4) return;
+        current = i;
+        steps.forEach((s, j) => {
+          s.classList.remove('active', 'completed');
+          if (j < i) s.classList.add('completed');
+          if (j === i) s.classList.add('active');
+        });
+        sections.forEach((s, j) => s.style.display = j === i ? 'block' : 'none');
+        prevBtn.style.display = i > 0 ? 'inline-block' : 'none';
+        nextBtn.textContent = i === 4 ? 'Submit Booking' : 'Next Step →';
+      }
+
+      nextBtn?.addEventListener('click', () => {
+        if (current < 4) showStep(current + 1);
+        else document.querySelector('form')?.dispatchEvent(new Event('submit'));
+      });
+      prevBtn?.addEventListener('click', () => { if (current > 0) showStep(current - 1); });
+
+      steps.forEach((step, i) => step.addEventListener('click', () => showStep(i)));
+      showStep(0); // Ensure step 1 is visible on load
+
+      document.querySelectorAll('.selectable-card').forEach(card => {
+        card.addEventListener('click', () => {
+          card.closest('.dumpster-select-grid')?.querySelectorAll('.selectable-card').forEach(c => c.classList.remove('selected'));
+          card.classList.add('selected');
+        });
+      });
+    })();
+  </script>
+</body>
+</html>
